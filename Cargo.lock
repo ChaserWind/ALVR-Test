@@ -1489,7 +1489,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3e3d747f100290a1ca24b752186f61f6637e1deffe3bf6320de6fcb29510a307"
 dependencies = [
  "bitflags 2.4.2",
- "libloading 0.8.1",
+ "libloading 0.7.4",
  "winapi",
 ]
 
@@ -1604,7 +1604,7 @@ version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "330c60081dcc4c72131f8eb70510f1ac07223e5d4163db481a04a0befcffa412"
 dependencies = [
- "libloading 0.8.1",
+ "libloading 0.7.4",
 ]
 
 [[package]]
@@ -2519,7 +2519,7 @@ dependencies = [
  "bitflags 2.4.2",
  "com",
  "libc",
- "libloading 0.8.1",
+ "libloading 0.7.4",
  "thiserror",
  "widestring",
  "winapi",
@@ -3721,7 +3721,7 @@ dependencies = [
 [[package]]
 name = "openxr"
 version = "0.17.1"
-source = "git+https://github.com/alvr-org/openxrs#5c5946528ac702a0c65834f6133d70c569a43a56"
+source = "git+https://github.com/alvr-org/openxrs#f1f47ff8509801bf28d44538cd4a379dc1b686cf"
 dependencies = [
  "libc",
  "libloading 0.8.1",
@@ -3732,7 +3732,7 @@ dependencies = [
 [[package]]
 name = "openxr-sys"
 version = "0.9.3"
-source = "git+https://github.com/alvr-org/openxrs#5c5946528ac702a0c65834f6133d70c569a43a56"
+source = "git+https://github.com/alvr-org/openxrs#f1f47ff8509801bf28d44538cd4a379dc1b686cf"
 dependencies = [
  "libc",
 ]
@@ -5764,7 +5764,7 @@ dependencies = [
  "js-sys",
  "khronos-egl",
  "libc",
- "libloading 0.8.1",
+ "libloading 0.7.4",
  "log",
  "metal",
  "naga",
