@@ -5691,9 +5691,9 @@ checksum = "1778a42e8b3b90bff8d0f5032bf22250792889a5cdc752aa0020c84abe3aaf10"
 
 [[package]]
 name = "wgpu"
-version = "0.19.0"
+version = "0.19.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d0b71d2ded29e2161db50ab731d6cb42c037bd7ab94864a98fa66ff36b4721a8"
+checksum = "cbd7311dbd2abcfebaabf1841a2824ed7c8be443a0f29166e5d3c6a53a762c01"
 dependencies = [
  "arrayvec",
  "cfg-if",
